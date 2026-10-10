@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>隐私权政策 — bxx-documents-backup</title><style>body{font:17px/1.8 system-ui,sans-serif;max-width:850px;margin:50px auto;padding:0 24px;color:#18202b;background:#fafafa}a{color:#185abc}h1{line-height:1.3}footer{margin-top:40px;border-top:1px solid #ddd;padding-top:20px;font-size:14px}</style></head><body><h1>隐私权政策</h1><p>生效日期：2026-10-10</p>
+<h2>用途与管理者</h2><p>bxx-documents-backup 是由 FanchengDing00 管理的个人备份工具，仅用于本人文档的备份、历史版本保留及恢复。联系邮箱：dingfancheng2@gmail.com。</p>
+<h2>处理的数据与 Google 授权</h2><p>工具读取指定备份目录中的文件内容、文件名和目录结构等元数据，使用 Google OAuth 授权访问本工具创建或获授权访问的 Google Drive 文件。当前使用 drive.file 权限，不主动读取与备份无关的 Google Drive 文档。</p>
+<p>访问令牌、刷新令牌和 OAuth 客户端配置用于维持授权连接，保存在受权限保护的服务器配置中，不发布到本网站或公开代码仓库。</p>
+<h2>存储与使用</h2><p>备份内容及备份内的文件元数据由 restic 在上传前加密，上传到账号所有者的 Google Drive。解密密码单独保存。服务器保留运行所需的缓存和状态日志，日志可能包含文件路径、时间、快照编号及错误信息。加密不能阻止云服务提供方观察加密对象的大小或传输时间。</p>
+<p>Google 提供存储和授权服务；GitHub Pages 托管本介绍网站，它不接收备份文件或授权令牌。网站未加入分析脚本、广告或自定义追踪功能。访问网站时，GitHub 可能按其隐私政策处理访问日志等技术信息。</p>
+<h2>共享与限制</h2><p>本工具不出售数据，不用于广告、用户画像、模型训练或向其他用户提供数据，也不将 Google 用户数据转交与备份无关的服务。</p>
+<h2>保留、恢复与删除</h2><p>正常情况下近期快照保留约 14 天，另保留近 8 周的每周快照。网络或验证异常、大量删除等保护条件可能延长保留时间。删除本地文件不会立即删除历史备份；清理过期快照及其不再被引用的数据后才释放对应空间。</p>
+<p>账号所有者可以在 Google 账号中撤销应用访问权限以停止后续访问。撤销授权不会自动删除已有备份；账号所有者可单独删除云端备份仓库或联系管理者处理删除。历史恢复写入新目录。</p>
+<h2>政策更新</h2><p>备份范围、授权权限或数据使用方式改变时，会相应更新此说明。</p>
+<p><a href="index.html">返回应用首页</a> · <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub 隐私政策</a> · <a href="https://policies.google.com/privacy">Google 隐私政策</a></p><footer>bxx-documents-backup · 联系邮箱：<a href="mailto:dingfancheng2@gmail.com">dingfancheng2@gmail.com</a></footer></body></html>
